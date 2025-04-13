@@ -1,14 +1,15 @@
 package com.java.inherMtd.internal;
-
-public class Juleat {
-    Juleat(){
+public class Juleat extends Romeo {
+    public Juleat() {
         System.out.println("running inside the Juleat");
     }
-    void romeo(){
-        System.out.println("running inside the romeo ");
-    }
-     void juleat(){
-         System.out.println("running inside the juleat");
-     }
 
+    @Override
+    void romeo() {
+        System.out.println("running inside the romeo from Juleat");
+    }
+
+    public void juleat() {
+        System.out.println("running inside the juleat");
+    }
 }
