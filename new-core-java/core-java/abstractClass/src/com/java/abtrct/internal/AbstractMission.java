@@ -9,4 +9,5 @@ public abstract class AbstractMission {
     public void miss(){
         System.out.println("running inside the miss");
     }
+
 }
