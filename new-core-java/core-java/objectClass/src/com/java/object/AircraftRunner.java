@@ -12,8 +12,6 @@ public class AircraftRunner
         System.out.println("Aircraft 2: " + a2);
         System.out.println("Aircraft 3: " + a3);
 
-
-
         boolean aMatch = a2.equals(a3);
         boolean aNotMatch = a1.equals(a2);
         System.out.println("Aircraft match: " + aMatch);
