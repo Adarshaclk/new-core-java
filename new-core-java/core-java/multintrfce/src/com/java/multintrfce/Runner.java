@@ -10,6 +10,7 @@ public class Runner {
         google.corporate();
         MNCco mnCco=new MNCco();
         google.corporate();
+        mnCco.mnc();
     }
 
 }
