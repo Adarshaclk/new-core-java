@@ -1,6 +1,6 @@
 package com.java.abtrct.internal;
 
-public abstract class AbstractMission {
+public abstract class  AbstractMission {
     public AbstractMission(){
         System.out.println("running inosde the Abstract AbstractMission");
     }

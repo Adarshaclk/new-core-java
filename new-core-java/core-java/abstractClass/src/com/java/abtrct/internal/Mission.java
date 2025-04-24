@@ -1,6 +1,6 @@
 package com.java.abtrct.internal;
 
-public class Mission extends AbstractMission {
+public class  Mission extends AbstractMission {
     public Mission(){
         System.out.println("running inside the mission");
     }

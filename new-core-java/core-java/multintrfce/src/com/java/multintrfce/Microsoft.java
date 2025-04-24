@@ -1,6 +1,6 @@
 package com.java.multintrfce;
 
-public interface Microsoft extends MNC{
+public interface Microsoft {
     @Override
     void corporate();
 }
